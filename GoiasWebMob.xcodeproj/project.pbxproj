@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF49FF49146108B200721187 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF49FF48146108B200721187 /* UIKit.framework */; };
+		DF49FF4B146108B200721187 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF49FF4A146108B200721187 /* Foundation.framework */; };
+		DF49FF4D146108B200721187 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF49FF4C146108B200721187 /* CoreGraphics.framework */; };
+		DF49FF53146108B200721187 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF49FF51146108B200721187 /* InfoPlist.strings */; };
+		DF49FF55146108B200721187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF49FF54146108B200721187 /* main.m */; };
+		DF49FF59146108B200721187 /* GoiasWebMobAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF49FF58146108B200721187 /* GoiasWebMobAppDelegate.m */; };
+		DF49FF5C146108B200721187 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF49FF5A146108B200721187 /* MainWindow.xib */; };
+		DF49FF5F146108B200721187 /* GoiasWebMobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF49FF5E146108B200721187 /* GoiasWebMobViewController.m */; };
+		DF49FF62146108B200721187 /* GoiasWebMobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF49FF60146108B200721187 /* GoiasWebMobViewController.xib */; };
+		DFACCB7614C9EE4B009A8750 /* launch_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7414C9EE4B009A8750 /* launch_320x480.png */; };
+		DFACCB7714C9EE4B009A8750 /* launch_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7514C9EE4B009A8750 /* launch_640x960.png */; };
+		DFACCB7914C9EE52009A8750 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7814C9EE52009A8750 /* Default.png */; };
+		DFACCB7B14C9EE58009A8750 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7A14C9EE58009A8750 /* Default@2x.png */; };
+		DFACCB7F14C9EEB4009A8750 /* ico_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7E14C9EEB4009A8750 /* ico_114x114.png */; };
+		DFACCB8314C9EF47009A8750 /* ico_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB8214C9EF46009A8750 /* ico_57x57.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DF49FF44146108B200721187 /* GoiasWebMob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoiasWebMob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF49FF48146108B200721187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF49FF4A146108B200721187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF49FF4C146108B200721187 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF49FF50146108B200721187 /* GoiasWebMob-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoiasWebMob-Info.plist"; sourceTree = "<group>"; };
+		DF49FF52146108B200721187 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF49FF54146108B200721187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF49FF56146108B200721187 /* GoiasWebMob-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GoiasWebMob-Prefix.pch"; sourceTree = "<group>"; };
+		DF49FF57146108B200721187 /* GoiasWebMobAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoiasWebMobAppDelegate.h; sourceTree = "<group>"; };
+		DF49FF58146108B200721187 /* GoiasWebMobAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoiasWebMobAppDelegate.m; sourceTree = "<group>"; };
+		DF49FF5B146108B200721187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		DF49FF5D146108B200721187 /* GoiasWebMobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoiasWebMobViewController.h; sourceTree = "<group>"; };
+		DF49FF5E146108B200721187 /* GoiasWebMobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoiasWebMobViewController.m; sourceTree = "<group>"; };
+		DF49FF61146108B200721187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GoiasWebMobViewController.xib; sourceTree = "<group>"; };
+		DFACCB7414C9EE4B009A8750 /* launch_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_320x480.png; sourceTree = "<group>"; };
+		DFACCB7514C9EE4B009A8750 /* launch_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_640x960.png; sourceTree = "<group>"; };
+		DFACCB7814C9EE52009A8750 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DFACCB7A14C9EE58009A8750 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DFACCB7E14C9EEB4009A8750 /* ico_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_114x114.png; sourceTree = "<group>"; };
+		DFACCB8214C9EF46009A8750 /* ico_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_57x57.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF49FF41146108B200721187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF49FF49146108B200721187 /* UIKit.framework in Frameworks */,
+				DF49FF4B146108B200721187 /* Foundation.framework in Frameworks */,
+				DF49FF4D146108B200721187 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF49FF39146108B100721187 = {
+			isa = PBXGroup;
+			children = (
+				DFACCB8214C9EF46009A8750 /* ico_57x57.png */,
+				DFACCB7E14C9EEB4009A8750 /* ico_114x114.png */,
+				DFACCB7A14C9EE58009A8750 /* Default@2x.png */,
+				DFACCB7814C9EE52009A8750 /* Default.png */,
+				DFACCB7414C9EE4B009A8750 /* launch_320x480.png */,
+				DFACCB7514C9EE4B009A8750 /* launch_640x960.png */,
+				DF49FF4E146108B200721187 /* GoiasWebMob */,
+				DF49FF47146108B200721187 /* Frameworks */,
+				DF49FF45146108B200721187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF49FF45146108B200721187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF49FF44146108B200721187 /* GoiasWebMob.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF49FF47146108B200721187 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF49FF48146108B200721187 /* UIKit.framework */,
+				DF49FF4A146108B200721187 /* Foundation.framework */,
+				DF49FF4C146108B200721187 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF49FF4E146108B200721187 /* GoiasWebMob */ = {
+			isa = PBXGroup;
+			children = (
+				DF49FF57146108B200721187 /* GoiasWebMobAppDelegate.h */,
+				DF49FF58146108B200721187 /* GoiasWebMobAppDelegate.m */,
+				DF49FF5A146108B200721187 /* MainWindow.xib */,
+				DF49FF5D146108B200721187 /* GoiasWebMobViewController.h */,
+				DF49FF5E146108B200721187 /* GoiasWebMobViewController.m */,
+				DF49FF60146108B200721187 /* GoiasWebMobViewController.xib */,
+				DF49FF4F146108B200721187 /* Supporting Files */,
+			);
+			path = GoiasWebMob;
+			sourceTree = "<group>";
+		};
+		DF49FF4F146108B200721187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF49FF50146108B200721187 /* GoiasWebMob-Info.plist */,
+				DF49FF51146108B200721187 /* InfoPlist.strings */,
+				DF49FF54146108B200721187 /* main.m */,
+				DF49FF56146108B200721187 /* GoiasWebMob-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF49FF43146108B200721187 /* GoiasWebMob */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF49FF65146108B200721187 /* Build configuration list for PBXNativeTarget "GoiasWebMob" */;
+			buildPhases = (
+				DF49FF40146108B200721187 /* Sources */,
+				DF49FF41146108B200721187 /* Frameworks */,
+				DF49FF42146108B200721187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoiasWebMob;
+			productName = GoiasWebMob;
+			productReference = DF49FF44146108B200721187 /* GoiasWebMob.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF49FF3B146108B100721187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DF49FF3E146108B100721187 /* Build configuration list for PBXProject "GoiasWebMob" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF49FF39146108B100721187;
+			productRefGroup = DF49FF45146108B200721187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF49FF43146108B200721187 /* GoiasWebMob */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF49FF42146108B200721187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF49FF53146108B200721187 /* InfoPlist.strings in Resources */,
+				DF49FF5C146108B200721187 /* MainWindow.xib in Resources */,
+				DF49FF62146108B200721187 /* GoiasWebMobViewController.xib in Resources */,
+				DFACCB7614C9EE4B009A8750 /* launch_320x480.png in Resources */,
+				DFACCB7714C9EE4B009A8750 /* launch_640x960.png in Resources */,
+				DFACCB7914C9EE52009A8750 /* Default.png in Resources */,
+				DFACCB7B14C9EE58009A8750 /* Default@2x.png in Resources */,
+				DFACCB7F14C9EEB4009A8750 /* ico_114x114.png in Resources */,
+				DFACCB8314C9EF47009A8750 /* ico_57x57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF49FF40146108B200721187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF49FF55146108B200721187 /* main.m in Sources */,
+				DF49FF59146108B200721187 /* GoiasWebMobAppDelegate.m in Sources */,
+				DF49FF5F146108B200721187 /* GoiasWebMobViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DF49FF51146108B200721187 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF49FF52146108B200721187 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF49FF5A146108B200721187 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF49FF5B146108B200721187 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		DF49FF60146108B200721187 /* GoiasWebMobViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF49FF61146108B200721187 /* en */,
+			);
+			name = GoiasWebMobViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF49FF63146108B200721187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF49FF64146108B200721187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Goias Esporte Clube";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Goias Esporte Clube";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "EAA4C754-50B7-4562-BE65-7D088FE56FA1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EAA4C754-50B7-4562-BE65-7D088FE56FA1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF49FF66146108B200721187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoiasWebMob/GoiasWebMob-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GoiasWebMob/GoiasWebMob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF49FF67146108B200721187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Goias Esporte Clube";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Goias Esporte Clube";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GoiasWebMob/GoiasWebMob-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "GoiasWebMob/GoiasWebMob-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "EAA4C754-50B7-4562-BE65-7D088FE56FA1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EAA4C754-50B7-4562-BE65-7D088FE56FA1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF49FF3E146108B100721187 /* Build configuration list for PBXProject "GoiasWebMob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF49FF63146108B200721187 /* Debug */,
+				DF49FF64146108B200721187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF49FF65146108B200721187 /* Build configuration list for PBXNativeTarget "GoiasWebMob" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF49FF66146108B200721187 /* Debug */,
+				DF49FF67146108B200721187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF49FF3B146108B100721187 /* Project object */;
+}
