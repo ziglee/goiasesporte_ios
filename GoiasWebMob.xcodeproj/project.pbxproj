@@ -16,16 +16,16 @@
 		DF49FF5C146108B200721187 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF49FF5A146108B200721187 /* MainWindow.xib */; };
 		DF49FF5F146108B200721187 /* GoiasWebMobViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF49FF5E146108B200721187 /* GoiasWebMobViewController.m */; };
 		DF49FF62146108B200721187 /* GoiasWebMobViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF49FF60146108B200721187 /* GoiasWebMobViewController.xib */; };
-		DFACCB7614C9EE4B009A8750 /* launch_320x480.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7414C9EE4B009A8750 /* launch_320x480.png */; };
-		DFACCB7714C9EE4B009A8750 /* launch_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7514C9EE4B009A8750 /* launch_640x960.png */; };
-		DFACCB7914C9EE52009A8750 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7814C9EE52009A8750 /* Default.png */; };
-		DFACCB7B14C9EE58009A8750 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7A14C9EE58009A8750 /* Default@2x.png */; };
-		DFACCB7F14C9EEB4009A8750 /* ico_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7E14C9EEB4009A8750 /* ico_114x114.png */; };
-		DFACCB8314C9EF47009A8750 /* ico_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB8214C9EF46009A8750 /* ico_57x57.png */; };
+		DF782A7B14D9A00700C3985B /* loading.png in Resources */ = {isa = PBXBuildFile; fileRef = DF782A7914D9A00700C3985B /* loading.png */; };
+		DF782A7C14D9A00700C3985B /* loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF782A7A14D9A00700C3985B /* loading@2x.png */; };
+		DF782A8014D9A1DE00C3985B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7814C9EE52009A8750 /* Default.png */; };
+		DF782A8114D9A1E100C3985B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7A14C9EE58009A8750 /* Default@2x.png */; };
+		DFACCB7F14C9EEB4009A8750 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB7E14C9EEB4009A8750 /* icon@2x.png */; };
+		DFACCB8314C9EF47009A8750 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DFACCB8214C9EF46009A8750 /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DF49FF44146108B200721187 /* GoiasWebMob.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoiasWebMob.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF49FF44146108B200721187 /* Goiás E.C..app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Goiás E.C..app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF49FF48146108B200721187 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DF49FF4A146108B200721187 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DF49FF4C146108B200721187 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -39,12 +39,12 @@
 		DF49FF5D146108B200721187 /* GoiasWebMobViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoiasWebMobViewController.h; sourceTree = "<group>"; };
 		DF49FF5E146108B200721187 /* GoiasWebMobViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoiasWebMobViewController.m; sourceTree = "<group>"; };
 		DF49FF61146108B200721187 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/GoiasWebMobViewController.xib; sourceTree = "<group>"; };
-		DFACCB7414C9EE4B009A8750 /* launch_320x480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_320x480.png; sourceTree = "<group>"; };
-		DFACCB7514C9EE4B009A8750 /* launch_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch_640x960.png; sourceTree = "<group>"; };
+		DF782A7914D9A00700C3985B /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
+		DF782A7A14D9A00700C3985B /* loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loading@2x.png"; sourceTree = "<group>"; };
 		DFACCB7814C9EE52009A8750 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DFACCB7A14C9EE58009A8750 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		DFACCB7E14C9EEB4009A8750 /* ico_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_114x114.png; sourceTree = "<group>"; };
-		DFACCB8214C9EF46009A8750 /* ico_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ico_57x57.png; sourceTree = "<group>"; };
+		DFACCB7E14C9EEB4009A8750 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		DFACCB8214C9EF46009A8750 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +64,12 @@
 		DF49FF39146108B100721187 = {
 			isa = PBXGroup;
 			children = (
-				DFACCB8214C9EF46009A8750 /* ico_57x57.png */,
-				DFACCB7E14C9EEB4009A8750 /* ico_114x114.png */,
+				DF782A7914D9A00700C3985B /* loading.png */,
+				DF782A7A14D9A00700C3985B /* loading@2x.png */,
+				DFACCB8214C9EF46009A8750 /* icon.png */,
+				DFACCB7E14C9EEB4009A8750 /* icon@2x.png */,
 				DFACCB7A14C9EE58009A8750 /* Default@2x.png */,
 				DFACCB7814C9EE52009A8750 /* Default.png */,
-				DFACCB7414C9EE4B009A8750 /* launch_320x480.png */,
-				DFACCB7514C9EE4B009A8750 /* launch_640x960.png */,
 				DF49FF4E146108B200721187 /* GoiasWebMob */,
 				DF49FF47146108B200721187 /* Frameworks */,
 				DF49FF45146108B200721187 /* Products */,
@@ -79,7 +79,7 @@
 		DF49FF45146108B200721187 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DF49FF44146108B200721187 /* GoiasWebMob.app */,
+				DF49FF44146108B200721187 /* Goiás E.C..app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			);
 			name = GoiasWebMob;
 			productName = GoiasWebMob;
-			productReference = DF49FF44146108B200721187 /* GoiasWebMob.app */;
+			productReference = DF49FF44146108B200721187 /* Goiás E.C..app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -172,12 +172,12 @@
 				DF49FF53146108B200721187 /* InfoPlist.strings in Resources */,
 				DF49FF5C146108B200721187 /* MainWindow.xib in Resources */,
 				DF49FF62146108B200721187 /* GoiasWebMobViewController.xib in Resources */,
-				DFACCB7614C9EE4B009A8750 /* launch_320x480.png in Resources */,
-				DFACCB7714C9EE4B009A8750 /* launch_640x960.png in Resources */,
-				DFACCB7914C9EE52009A8750 /* Default.png in Resources */,
-				DFACCB7B14C9EE58009A8750 /* Default@2x.png in Resources */,
-				DFACCB7F14C9EEB4009A8750 /* ico_114x114.png in Resources */,
-				DFACCB8314C9EF47009A8750 /* ico_57x57.png in Resources */,
+				DFACCB7F14C9EEB4009A8750 /* icon@2x.png in Resources */,
+				DFACCB8314C9EF47009A8750 /* icon.png in Resources */,
+				DF782A7B14D9A00700C3985B /* loading.png in Resources */,
+				DF782A7C14D9A00700C3985B /* loading@2x.png in Resources */,
+				DF782A8014D9A1DE00C3985B /* Default.png in Resources */,
+				DF782A8114D9A1E100C3985B /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +284,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "GoiasWebMob/GoiasWebMob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Goiás E.C.";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -299,7 +299,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "GoiasWebMob/GoiasWebMob-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Goiás E.C.";
 				PROVISIONING_PROFILE = "EAA4C754-50B7-4562-BE65-7D088FE56FA1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EAA4C754-50B7-4562-BE65-7D088FE56FA1";
 				WRAPPER_EXTENSION = app;

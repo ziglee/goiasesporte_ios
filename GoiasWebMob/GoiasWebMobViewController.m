@@ -2,7 +2,23 @@
 
 @implementation GoiasWebMobViewController
 
-@synthesize webView;
+@synthesize webView, loadingImageView;
+
+- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error {
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Erro" message:@"Não foi possível carregar. Favor verifique sua conexão" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil];
+    [alert show];
+    [alert release];
+}
+
+- (void) webViewDidStartLoad:(UIWebView *)webView {
+    
+    [self.view addSubview:self.loadingImageView];
+}
+
+- (void) webViewDidFinishLoad:(UIWebView *)webView {
+    
+    [self.loadingImageView removeFromSuperview];
+}
 
 - (void)didReceiveMemoryWarning
 {
@@ -17,8 +33,13 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
-    [super viewDidLoad];
+    UIImageView *theLoadingImageView = [[UIImageView alloc] initWithFrame:webView.frame];
+    theLoadingImageView.image = [UIImage imageNamed:@"loading@2x.png"];
+    self.loadingImageView = theLoadingImageView;
+    [theLoadingImageView release];
+    
     [webView loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://goiaswebmob.heroku.com/html/index.html"]]];
+    [super viewDidLoad];
 }
 
 - (void)viewDidUnload
